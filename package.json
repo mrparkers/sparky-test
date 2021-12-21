@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.1",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
     "semantic-release": "^18.0.1"
