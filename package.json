@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "jest": "^27.4.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "semantic-release": "^18.0.1"
   },
   "dependencies": {
     "@slack/bolt": "^3.8.1",
