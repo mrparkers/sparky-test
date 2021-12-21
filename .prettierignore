@@ -1,2 +1,4 @@
-package.json
-.github/*
+*
+
+!src/**.js
+!test/**.js
