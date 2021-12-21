@@ -1,11 +1,11 @@
 branches:
-  - main
-repositoryUrl: 'git@github.com:mrparkers/sparky-test.git'
+    - main
+repositoryUrl: "git@github.com:mrparkers/sparky-test.git"
 preset: conventionalcommits
 plugins:
-  - '@semantic-release/commit-analyzer'
-  - '@semantic-release/release-notes-generator'
-  - '@semantic-release/npm'
-  - path: '@semantic-release/github'
-    failComment: false
-    successComment: false
+    - "@semantic-release/commit-analyzer"
+    - "@semantic-release/release-notes-generator"
+    - "@semantic-release/npm"
+    - path: "@semantic-release/github"
+      failComment: false
+      successComment: false
