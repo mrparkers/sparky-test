@@ -13,7 +13,7 @@ const app = new App({
 
 expressApp.get("/", (req, res) => {
     res.send("Sparky is running!");
-})
+});
 
 app.message(":wave:", async ({ message, say }) => {
     await say(`Hello, <@${message.user}>`);
