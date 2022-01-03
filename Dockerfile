@@ -7,6 +7,8 @@ RUN yarn --production
 
 FROM gcr.io/distroless/nodejs:16
 
+LABEL org.opencontainers.image.source=https://github.com/mrparkers/sparky-test
+
 COPY --from=build /usr/src/app /usr/src/app
 WORKDIR /usr/src/app
 
