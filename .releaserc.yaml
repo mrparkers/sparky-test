@@ -13,4 +13,4 @@ plugins:
     failComment: false
     successComment: false
   - path: '@liatrio/semantic-release-helm'
-    branch: foobar
+    githubPagesBranch: gh-pages
