@@ -12,3 +12,4 @@ plugins:
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
+  - '@liatrio/semantic-release-helm'
