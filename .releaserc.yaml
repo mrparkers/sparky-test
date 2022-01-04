@@ -12,4 +12,5 @@ plugins:
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
-  - '@liatrio/semantic-release-helm'
+  - path: '@liatrio/semantic-release-helm'
+    branch: foobar
