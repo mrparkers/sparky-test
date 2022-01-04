@@ -14,3 +14,6 @@ plugins:
     successComment: false
   - path: '@liatrio/semantic-release-helm'
     githubPagesBranch: gh-pages
+    charts:
+      - charts/sparky
+      - charts/sparky2
