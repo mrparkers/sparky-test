@@ -6,6 +6,10 @@ plugins:
   - '@semantic-release/commit-analyzer'
   - '@semantic-release/release-notes-generator'
   - '@semantic-release/npm'
+  - path: '@liatrio/semantic-release-helm'
+    githubPagesBranch: gh-pages
+    charts:
+      - charts/sparky
   - path: '@semantic-release/git'
     assets:
       - package.json
@@ -13,7 +17,3 @@ plugins:
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
-  - path: '@liatrio/semantic-release-helm'
-    githubPagesBranch: gh-pages
-    charts:
-      - charts/sparky
