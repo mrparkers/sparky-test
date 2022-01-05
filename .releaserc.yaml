@@ -17,3 +17,5 @@ plugins:
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
+    assets:
+      - path: 'sparky-<% nextRelease.version %>.tgz'
