@@ -19,3 +19,4 @@ plugins:
     successComment: false
     assets:
       - path: 'sparky-${nextRelease.version}.tgz'
+        label: Helm Chart
