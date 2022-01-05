@@ -9,6 +9,7 @@ plugins:
   - path: '@semantic-release/git'
     assets:
       - package.json
+      - charts/sparky/Chart.yaml
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
