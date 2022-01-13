@@ -1,6 +1,6 @@
 {
   "name": "sparky",
-  "version": "1.4.32",
+  "version": "1.4.33",
   "main": "src/app.js",
   "repository": "https://github.com/liatrio/sparky",
   "author": "Liatrio",
