@@ -12,8 +12,8 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@liatrio/semantic-release-helm": "^1.0.0",
     "@semantic-release/git": "^10.0.1",
-    "@liatrio/semantic-release-helm": "/Users/parker/Developer/semantic-release-helm",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
