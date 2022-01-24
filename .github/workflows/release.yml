@@ -1,16 +1,16 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "package.json"
-      - "yarn.lock"
-      - "Dockerfile"
-      - ".dockerignore"
-      - ".github/workflows/release.yml"
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - "src/**"
+#      - "package.json"
+#      - "yarn.lock"
+#      - "Dockerfile"
+#      - ".dockerignore"
+#      - ".github/workflows/release.yml"
   workflow_dispatch: {}
 
 concurrency:
