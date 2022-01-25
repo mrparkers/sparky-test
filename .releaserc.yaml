@@ -7,7 +7,11 @@ plugins:
   - '@semantic-release/release-notes-generator'
   - '@semantic-release/npm'
   - path: '@liatrio/semantic-release-helm'
-    githubPagesBranch: gh-pages
+    github:
+      pagesBranch: gh-pages
+    aws:
+      region: us-east-1
+      bucket: whatever
     charts:
       - charts/sparky
   - path: '@semantic-release/git'
