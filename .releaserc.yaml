@@ -9,9 +9,6 @@ plugins:
   - path: '@liatrio/semantic-release-helm'
     github:
       pagesBranch: gh-pages
-    aws:
-      region: us-east-1
-      bucket: whatever
     charts:
       - charts/sparky
   - path: '@semantic-release/git'
