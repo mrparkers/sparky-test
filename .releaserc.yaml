@@ -9,7 +9,7 @@ plugins:
   - path: '@liatrio/semantic-release-helm'
     aws:
       region: us-east-1
-      bucket: foo
+      bucket: fake-bucket
     charts:
       - charts/sparky
   - path: '@semantic-release/git'
