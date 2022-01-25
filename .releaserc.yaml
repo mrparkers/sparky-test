@@ -10,6 +10,7 @@ plugins:
     aws:
       region: us-east-1
       bucket: parker-test-helm-repo
+      bucketUrl: https://parker-test-helm-repo.s3.us-east-1.amazonaws.com
     charts:
       - charts/sparky
   - path: '@semantic-release/git'
@@ -19,6 +20,3 @@ plugins:
   - path: '@semantic-release/github'
     failComment: false
     successComment: false
-    assets:
-      - path: 'sparky-*.tgz'
-        label: Helm Chart
