@@ -1,6 +1,6 @@
 {
   "name": "sparky",
-  "version": "1.4.52",
+  "version": "1.5.0",
   "main": "src/app.js",
   "repository": "https://github.com/liatrio/sparky",
   "author": "Liatrio",
@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@liatrio/semantic-release-helm": "^1.0.0",
+    "@liatrio/semantic-release-helm": "^2.2.0",
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "jest": "^27.4.5",
