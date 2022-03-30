@@ -12,7 +12,7 @@ const app = new App({
 });
 
 expressApp.get("/", (req, res) => {
-    res.send("Sparky is running!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    res.send("Sparky is running!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 });
 
 app.message(/:(wave|waving):/, async ({ message, say }) => {
