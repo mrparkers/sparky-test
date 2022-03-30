@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   sparky:
   - apiVersion: v2
+    appVersion: 1.5.4
+    created: "2022-03-30T15:37:23.948641-05:00"
+    dependencies:
+    - condition: mysql.disabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.14.10
+    description: A Helm chart for Kubernetes
+    digest: a41ccfd7f137dcdc8bf8abea129eb3923ddbfc1f81f701c3961d87f9f64ac160
+    name: sparky
+    type: application
+    urls:
+    - https://github.com/mrparkers/sparky-test/releases/download/v1.5.4/sparky-1.5.4.tgz
+    version: 1.5.4
+  - apiVersion: v2
     appVersion: 1.5.3
     created: "2022-03-30T10:20:12.490467-05:00"
     dependencies:
@@ -191,4 +206,4 @@ entries:
     urls:
     - https://github.com/mrparkers/sparky-test/releases/download/v1.4.23/sparky-1.4.23.tgz
     version: 1.4.23
-generated: "2022-03-30T10:20:12.488707-05:00"
+generated: "2022-03-30T15:37:23.947016-05:00"
