@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   sparky:
   - apiVersion: v2
+    appVersion: 1.5.5
+    created: "2022-03-31T16:54:46.753272-05:00"
+    description: A Helm chart for Kubernetes
+    digest: bedf77f6b942f1de1009ae11f35880cd8f16e91a1fbc8c7c92f07b8e5086cadb
+    name: sparky
+    type: application
+    urls:
+    - https://github.com/mrparkers/sparky-test/releases/download/v1.5.5/sparky-1.5.5.tgz
+    version: 1.5.5
+  - apiVersion: v2
     appVersion: 1.5.4
     created: "2022-03-30T15:37:23.948641-05:00"
     dependencies:
@@ -206,4 +216,4 @@ entries:
     urls:
     - https://github.com/mrparkers/sparky-test/releases/download/v1.4.23/sparky-1.4.23.tgz
     version: 1.4.23
-generated: "2022-03-30T15:37:23.947016-05:00"
+generated: "2022-03-31T16:54:46.752187-05:00"
