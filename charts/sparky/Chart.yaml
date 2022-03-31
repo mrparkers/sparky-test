@@ -21,9 +21,3 @@ version: 1.5.4
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: 1.5.4
-
-dependencies:
-  - name: mysql
-    condition: mysql.disabled
-    version: "6.14.10"
-    repository: "https://charts.bitnami.com/bitnami"
